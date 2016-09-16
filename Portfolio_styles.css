@@ -1,0 +1,215 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+html {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(images/AutumnLeaves.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+/*******************
+NAVIGATION
+********************/
+
+.main-nav {
+  width: 100%;
+  top: 0;
+  background: black;
+  height: 100px;
+  position: fixed;
+  text-align: center;
+  border-bottom: solid red 10px;
+
+}
+
+.nav {
+
+  font-weight: 700;
+  list-style-type: no;
+  padding: 20px 20px 20px 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+	font-size: 2em;
+	padding-bottom: 5px;
+	display: inline-block;
+	float: left;
+}
+.nav li {
+  padding: 10px 40px 10px 40px;
+  list-style: none;
+   display: inline-block;
+}
+
+.nav a {
+	
+	transition: all 1.5s;
+	font-size: 1.5em;
+	
+}
+
+.nav a:hover {
+  color: white;
+  font-size: 2em;
+  
+}
+
+.selected {
+	
+	color: white;
+	
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+a:hover {
+  color: #6633ff;
+  
+}
+
+
+/*******************
+HEADER
+********************/
+
+header {
+  line-height: 4;
+  
+}
+
+
+/*******************
+GALLERY
+********************/
+
+.gallery li {
+	
+	width: 45%;
+	margin: 2.5%;
+	padding: 0;
+	height: auto;
+	float: left;
+	outline: 10px solid black;
+	background-color: black;
+	color: white;
+	
+	
+}
+
+.gallery li p {
+	
+	background-color: black;
+	color: white;
+	
+	
+	
+}
+
+.gallery li img	{
+	
+	width: 100%;
+	
+	
+}
+
+.gallery {
+	
+	margin: 0;
+	margin-top: 150px;
+	padding: 0;
+	
+	
+	
+}
+
+/*******************
+FOOTER
+********************/
+
+footer {
+ 
+  width: 100%;
+ padding: 20px 0 40px 20px;
+  background-color: black;
+  clear: both;
+  
+}
+
+footer .copyright {
+ 
+  font-size: 1em;
+  color: #fff;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/************
+WRAPPER
+***********/
+
+.wrapper {
+	
+	
+	width: 50%;
+	margin: 250px auto 0 auto;
+	background-color: #fff;
+	border-radius: 5px;
+	border: solid 10px;
+	padding: 80px;
+	
+	
+}
+
+
+
+
